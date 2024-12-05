@@ -16,7 +16,7 @@ app.use("/images", express.static(path.join(__dirname, "public/images")));
 
 // Database connection
 const db = mysql.createConnection({
-  host: "localhost",
+  host: "127.0.0.1",
   user: "root",
   password: "", // Replace with your DB password
   database: "nithish", // Replace with your DB name
